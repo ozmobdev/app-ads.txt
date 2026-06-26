@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Cozmodev</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #6366f1;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .date {
+            color: var(--accent-color);
+            font-weight: 500;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border-color);
+            margin: 2rem 0;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #e2e8f0;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            color: var(--text-muted);
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #a855f7;
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="https://cozmodev.com" class="logo">Cozmodev</a>
+        <h1>Privacy Policy</h1>
+        <div class="date">Effective Date: June 26, 2026</div>
+        
+        <p>Welcome to Cozmodev. We are committed to protecting your privacy. This Privacy Policy explains how Cozmodev ("we," "us," or "our") collects, uses, discloses, and safeguards your information when you use our mobile applications, including but not limited to <strong>InnoScan</strong>, <strong>Moneysave</strong>, and <strong>Comwus</strong> (collectively, the "Applications").</p>
+        <p>Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access or use our Applications.</p>
+
+        <hr>
+
+        <h2>1. Information We Collect</h2>
+        <p>Depending on which of our Applications you use, we may collect different types of information to provide and improve our services:</p>
+
+        <h3>A. Personal Data</h3>
+        <p>We may collect personally identifiable information that you voluntarily give us when you choose to participate in various activities related to the Applications, such as:</p>
+        <ul>
+            <li><strong>Account Registration (e.g., Comwus):</strong> Name, email address, profile picture, and authentication credentials when you create a social media profile or log in via third-party providers.</li>
+            <li><strong>Financial Tracking (e.g., Moneysave):</strong> Users manually enter their financial data (income, expenses, budgets) to track their personal finances. This data is strictly stored locally on your device unless backup/sync options are explicitly enabled.</li>
+        </ul>
+
+        <h3>B. Content and Media Data</h3>
+        <ul>
+            <li><strong>Document Scanning (e.g., InnoScan):</strong> To provide document scanning features, the application requires access to your device’s camera and photo library. The processed documents and images are handled locally on your device.</li>
+            <li><strong>Social Media Interactions (e.g., Comwus):</strong> Content you create, upload, or share, such as event invitations, comments, photos, and messages to other users within the social network.</li>
+        </ul>
+
+        <h3>C. Device and Usage Data</h3>
+        <ul>
+            <li><strong>Log and Usage Data:</strong> We may collect device-specific information (such as your mobile device ID, model, operating system version) and usage statistics to debug issues and improve performance.</li>
+            <li><strong>Location Data:</strong> For features involving event planning and local invitations (e.g., Comwus), we may request access to location-based information to show nearby events. You can disable this in your device settings at any time.</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the information collected via our Applications for purposes described in this Privacy Policy, including to:</p>
+        <ul>
+            <li>Create, manage, and secure your user accounts.</li>
+            <li>Facitilate social interactions, event invitations, and networking (specifically for Comwus).</li>
+            <li>Process local data for utility tools, such as document rendering and financial analytics (InnoScan, Moneysave).</li>
+            <li>Serve targeted or non-targeted advertisements through third-party networks (e.g., Google AdMob).</li>
+            <li>Monitor and analyze usage trends to optimize application performance and user experience.</li>
+        </ul>
+
+        <h2>3. Sharing and Disclosure of Information</h2>
+        <p>We do not sell your personal data. We may share information we have collected about you in certain situations, such as:</p>
+        <ul>
+            <li><strong>With Other Users:</strong> In our social platform (Comwus), your public profile details, event invitations, and shared content will be visible to other users as intended by the platform functionality.</li>
+            <li><strong>Third-Party Advertisers:</strong> We may use third-party advertising companies (such as Google AdMob) to serve ads when you visit or use the Applications. These companies may use information about your visits to serve relevant advertisements.</li>
+            <li><strong>By Law or to Protect Rights:</strong> If we believe the release of information about you is necessary to respond to legal process, or to protect the rights, property, and safety of others.</li>
+        </ul>
+
+        <h2>4. Data Security & Storage</h2>
+        <ul>
+            <li><strong>Local Storage:</strong> For productivity and utility applications like InnoScan and Moneysave, your critical user data (scanned documents, expense logs) is stored directly on your physical device to ensure maximum privacy.</li>
+            <li><strong>Cloud Storage:</strong> For cloud-dependent applications like Comwus, we utilize industry-standard, secure database solutions to store your profile information and event data.</li>
+        </ul>
+
+        <h2>5. Your Privacy Rights (GDPR / CCPA)</h2>
+        <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+        <ul>
+            <li>The right to access the data we hold about you.</li>
+            <li>The right to request the correction or deletion of your personal data.</li>
+            <li>The right to restrict or object to the processing of your data.</li>
+            <li>The right to delete your social media account and all associated event data (via in-app settings in Comwus).</li>
+        </ul>
+
+        <h2>6. Children’s Privacy</h2>
+        <p>Our Applications are not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you become aware that a child has provided us with personal data, please contact us immediately.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Effective Date" at the top of this page.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions or suggestions about this Privacy Policy, please contact us at:</p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:support@cozmodev.com">support@cozmodev.com</a><br>
+            <strong>Studio Website:</strong> <a href="https://cozmodev.com">https://cozmodev.com</a>
+        </p>
+
+        <footer>
+            <p>&copy; 2026 Cozmodev. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
